@@ -1,0 +1,27 @@
+#highScores {
+  justify-content: start;
+}
+
+#timeLeft {
+  float: right;
+}
+
+h1 {
+  color: lightcoral;
+  text-align: center;
+  border: lightcoral, solid;
+}
+
+.container {
+  align-items: center;
+}
+body {
+  display: flex;
+  align-content: center;
+  padding: 30px;
+  width: 100%;
+}
+
+#afterSubmit {
+  visibility: hidden;
+}

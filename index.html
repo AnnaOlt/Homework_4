@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="stylesheet.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-2">
+          <a id="highScores" href="#">High Scores</a>
+        </div>
+        <div class="col-md-auto">
+          <h1>Coding Quiz</h1>
+          <br /><br />
+          <p>Take this timed quiz to test your knowledge of coding</p>
+
+          <button type="button" onclick="toQuiz()" id="startBtn" class="button">
+            Start
+          </button>
+
+          <br />
+        </div>
+        <div class="col col-lg-2">
+          <div id="timeLeft">Time left</div>
+        </div>
+      </div>
+      <div class="row" id="afterSubmit">
+        <div class="col-md text-center">
+          <form id="quiz" name="quiz">
+            <h2>Commonly used data types DO NOT include:</h2>
+            <input
+              type="radio"
+              id="mc"
+              name="option1"
+              value="strings"
+            />Strings<br />
+            <input
+              type="radio"
+              id="mc"
+              name="option2"
+              value="booleans"
+            />Booleans<br />
+            <input
+              type="radio"
+              id="mc"
+              name="option3"
+              value="alerts"
+            />Alerts<br />
+            <button type="submit"onclick="next()" id="answerOne">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="row" id="afterSubmit">
+        <div class="col-md text-center">
+          <form id="quiz" name="quiz">
+            <h2>Commonly used data types DO NOT include:</h2>
+            <input
+              type="radio"
+              id="mc"
+              name="option1"
+              value="strings"
+            />Strings<br />
+            <input
+              type="radio"
+              id="mc"
+              name="option2"
+              value="booleans"
+            />Booleans<br />
+            <input
+              type="radio"
+              id="mc"
+              name="option3"
+              value="alerts"
+            />Alerts<br />
+            <button type="submit" onclick="next()" id="answerTwo">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="row" id="afterSubmit">
+        <div class="col-md text-center">
+          <form id="quiz" name="quiz">
+            <h2>Commonly used data types DO NOT include:</h2>
+            <input
+              type="radio"
+              id="mc"
+              name="option1"
+              value="strings"
+            />Strings<br />
+            <input
+              type="radio"
+              id="mc"
+              name="option2"
+              value="booleans"
+            />Booleans<br />
+            <input
+              type="radio"
+              id="mc"
+              name="option3"
+              value="alerts"
+            />Alerts<br />
+            <button type="submit"onclick="next()" id="answerThree">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="row" id="afterSubmit">
+        <div class="col-md text-center">
+          <form id="quiz" name="quiz">
+            <h2>Commonly used data types DO NOT include:</h2>
+            <input
+              type="radio"
+              id="mc"
+              name="option1"
+              value="strings"
+            />Strings<br />
+            <input
+              type="radio"
+              id="mc"
+              name="option2"
+              value="booleans"
+            />Booleans<br />
+            <input
+              type="radio"
+              id="mc"
+              name="option3"
+              value="alerts"
+            />Alerts<br />
+            <button type="submit" onclick="next()" id="answerFour"></button>>Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="row" id="afterSubmit">
+        <div class="col-md text-center">
+          <form id="quiz" name="quiz">
+            <h2>Commonly used data types DO NOT include:</h2>
+            <input
+              type="radio"
+              id="mc"
+              name="option1"
+              value="strings"
+            />Strings<br />
+            <input
+              type="radio"
+              id="mc"
+              name="option2"
+              value="booleans"
+            />Booleans<br />
+            <input
+              type="radio"
+              id="mc"
+              name="option3"
+              value="alerts"
+            />Alerts<br />
+            <button type="submit" onclick="next()" id="answerFive">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
